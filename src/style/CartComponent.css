@@ -1,0 +1,131 @@
+.cartImage{
+    height: 200px;
+    width: 220px;
+    margin-top: 5px;
+}
+.main{
+    background-color:rgb(241, 237, 237);
+    padding: 0;
+    margin-top: 15px;
+}
+/* .colum{
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+.content{
+    padding: 15px;
+}
+.show{
+    display: flex;
+}
+.data{
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.arrow{
+    display :flex !important;
+    padding-left: 10px;
+}
+.circledown{
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.circleup{
+    background-color: green;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center !important;
+    margin-left: 5px;
+    align-items: center !important;
+    margin-right: 5px;
+}
+.arrows{
+    height: 20px;
+    padding-top: 7px;
+    text-align: center !important;
+    align-items: center !important;
+    color: white;
+}
+.colum{
+  
+    padding-right: 0 !important;
+}
+.colum p{
+    text-align: start !important;
+    justify-content: justify !important;
+    
+}
+.priceData{
+    display: block;
+    text-align: start;
+    justify-content: end !important;
+    width: 100% !important;
+    padding-top: 15px;
+  
+  
+}
+.close{
+justify-content: end;
+text-align: end;
+justify-items: end;
+margin: 0;
+padding-right: 10px;
+padding-bottom: 0 !important;
+}
+
+.priceData div{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify !important;
+    justify-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.priceData div p{
+    text-align: start !important;
+    margin: 0;
+    padding-top: 3px;
+}
+.order{
+    justify-content: center !important;
+    margin-top: 10px;
+}
+.des{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    max-height: 2.7em;
+    line-height: 1.3em; 
+}
+@media screen and (max-width:430px) {
+    .main{
+        width: 100% ;
+        padding: 0 ;
+        margin-top: 15px;
+    }
+    .content{
+        width: 100%;
+        margin: 0 ;
+    }
+    .cartImage{
+        width: 100% !important;
+        margin: 0;
+    }
+    .show{
+        display: block;
+    }
+}
+
+@media (min-width:700px) and (max-width:770px) {
+    .priceData div{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,132 @@
+.mainHeading{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.imag{
+    height: 500px;
+    width: 100%;
+}
+.contain{
+padding-top: 100px;
+}
+
+.similarImage{
+    height: 200px;
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.showImages{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.other{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.price{
+    width: 60%; 
+}
+.priceSection{
+    padding-top: 20px;
+}
+.btnSection{
+    width: 50%;
+    padding-top: 30px;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+}
+
+
+.showData{
+    text-align: center !important;
+    padding-top: 10px;
+    justify-content: space-evenly !important;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.rows{
+    justify-content: space-evenly !important;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.col{
+    justify-content: space-evenly !important;
+    display: flex !important;
+}
+.similarProdcut{
+    padding-top: 20px;
+}
+
+
+@media (min-width:200px) and (max-width:768px) {
+    .mainHeading{
+        padding-top: 0;
+    }
+    .contain{
+        padding-top: 60px;
+        width: auto !important;
+    }
+    .image{
+        width: 100% !important;
+    }
+    .similarImage{
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 300px;
+        padding-top: 5px;
+    }
+    .col11{
+        width: 100% !important;
+    }
+    .showImages{
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    
+    }
+    .other{
+        padding-top: 20px;
+    }
+    
+    .descs{
+        padding-top: 10px;
+    }
+    .desc1{
+        justify-content: start;
+        text-align: justify;
+    }
+
+    .price{
+        width: 100%;
+    }
+    .btnSection{
+        width: 100%;
+    }
+    .similarProdcut{
+        padding-top: 0px;
+    }
+    .simicol{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width:800px) and (max-width:1050px) {
+    .similarImage{
+        width: 150px;
+        height: 200px;
+    }
+    .showImages{
+        padding: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.imagee{
+    height: 150px;
+    width: 150px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+}
+.orderCart{
+    background-color:rgb(250, 243, 243);
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+.right{
+    align-items: center !important;
+    padding-top: 5px;
+}
+.start{
+    color: yellow;
+}

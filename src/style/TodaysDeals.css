@@ -1,0 +1,64 @@
+.dealSection{
+    padding-top: 100px;
+    text-align: center !important;
+    align-items: center;
+}
+.dealLable{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.todayDealTable{
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-evenly !important;
+    justify-items: center;
+}
+.dealCard{
+    margin-left: 17%;
+    margin-right: 17%;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.para{
+text-align: end;
+padding-right: 170px;
+padding-top: 20px;
+cursor: pointer;
+color:orange;
+font-weight: 600;
+}
+.row{
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen and (max-width:768px) {
+    
+    .dealCard{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        height: 350px;
+    }
+    .row{
+        padding-left: 10px;
+        padding-right: 10px; 
+    }
+    .todayDealTable{
+        padding-top: 20px;
+    }
+    .para{
+        text-align: end !important;
+        padding-right: 15px;
+    }
+}
+@media (min-width:1020px) and (max-width:1024px) {
+        .dealCard{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+}
